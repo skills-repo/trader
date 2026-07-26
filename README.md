@@ -10,11 +10,11 @@
 
 ## 技能清单
 
-| 技能 | 文件 | 说明 |
-|------|------|------|
-| 交易系统核心 | [skills/trade-system.md](skills/trade-system.md) | 三层过滤、入场模式、仓位公式、退出规则 |
-| 交易决策框架 | [skills/trade-decisions.md](skills/trade-decisions.md) | 持仓管理、候选标的池、期权边界 |
-| 交易复盘 | [skills/trade-review.md](skills/trade-review.md) | R 值计算、错误分类、月度复盘模板 |
+| 技能 | 文件 | 说明 | 来源 |
+|------|------|------|------|
+| 交易系统核心 | [skills/trade-system.md](skills/trade-system.md) | 三层过滤、入场模式、仓位公式、退出规则 | 原创 |
+| 交易决策框架 | [skills/trade-decisions.md](skills/trade-decisions.md) | 持仓管理、候选标的池、期权边界 | 原创 |
+| 交易复盘 | [skills/trade-review.md](skills/trade-review.md) | R 值计算、错误分类、月度复盘模板 | 原创 |
 
 ## 演示
 
