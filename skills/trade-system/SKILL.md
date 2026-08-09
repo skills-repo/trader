@@ -1,3 +1,15 @@
+---
+name: trade-system
+description: "日线趋势交易核心系统：三层过滤（大盘→板块→个股）、两类入场、仓位风险公式、退出规则与连续亏损保护。"
+agent_created: true
+metadata:
+  version: 1.0.0
+  category: 交易/投资
+  difficulty: 专家
+  architecture: superpower
+  source: https://github.com/Linux2010/one/blob/main/trade/trade.md
+---
+
 # trade-system — 日线趋势交易核心系统
 
 > Agent skill：在日线级别评估美股趋势、计算仓位风险、执行入场退出决策

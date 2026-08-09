@@ -1,3 +1,15 @@
+---
+name: trade-decisions
+description: "持仓管理与决策框架：管理趋势小账户持仓、维护候选标的池、评估期权机会（Bull Call Spread / Long Call）与相关性风险。"
+agent_created: true
+metadata:
+  version: 1.0.0
+  category: 交易/投资
+  difficulty: 专家
+  architecture: superpower
+  source: https://github.com/Linux2010/one/blob/main/trade/logs/decisions.md
+---
+
 # trade-decisions — 持仓管理与决策框架
 
 > Agent skill：管理趋势小账户持仓、维护候选标的池、评估期权机会

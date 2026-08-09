@@ -1,3 +1,15 @@
+---
+name: trade-review
+description: "交易复盘技能：单笔 R 值计算、三层执行评估、错误分类与 20 笔 / 月度系统性复盘模板。"
+agent_created: true
+metadata:
+  version: 1.0.0
+  category: 交易/投资
+  difficulty: 专家
+  architecture: superpower
+  source: https://github.com/Linux2010/one/blob/main/trade/trade.md#复盘指标
+---
+
 # trade-review — 交易复盘技能
 
 > Agent skill：帮助交易者完成每笔交易复盘和月度系统性回顾

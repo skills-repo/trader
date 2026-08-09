@@ -8,19 +8,43 @@
 
 **核心理念：** 不预测，只跟随；先控制风险，再等待趋势。
 
+## 安装
+
+本仓库支持整库安装与按子技能单独安装（路径长期稳定、不会改名）：
+
+```bash
+# 整库安装
+npx skills add skills-repo/trader
+
+# 按子技能安装
+npx skills add skills-repo/trader@trade-decisions
+npx skills add skills-repo/trader@trade-review
+npx skills add skills-repo/trader@trade-system
+```
+
 ## 技能清单
 
 | 技能 | 文件 | 说明 | 来源 |
 |------|------|------|------|
-| 交易系统核心 | [skills/trade-system.md](skills/trade-system.md) | 三层过滤、入场模式、仓位公式、退出规则 | 原创 |
-| 交易决策框架 | [skills/trade-decisions.md](skills/trade-decisions.md) | 持仓管理、候选标的池、期权边界 | 原创 |
-| 交易复盘 | [skills/trade-review.md](skills/trade-review.md) | R 值计算、错误分类、月度复盘模板 | 原创 |
+| 交易系统核心 | [skills/trade-system/SKILL.md](skills/trade-system/SKILL.md) | 三层过滤、入场模式、仓位公式、退出规则 | 原创 |
+| 交易决策框架 | [skills/trade-decisions/SKILL.md](skills/trade-decisions/SKILL.md) | 持仓管理、候选标的池、期权边界 | 原创 |
+| 交易复盘 | [skills/trade-review/SKILL.md](skills/trade-review/SKILL.md) | R 值计算、错误分类、月度复盘模板 | 原创 |
+
+## 子技能表
+
+| 子技能 | 路径 | 适用 |
+|--------|------|------|
+| trade-system | `skills/trade-system` | 大盘/板块/个股三层过滤，仓位风险公式，入场退出决策 |
+| trade-decisions | `skills/trade-decisions` | 持仓快照、候选标的池、期权策略与相关性风险管理 |
+| trade-review | `skills/trade-review` | 单笔 R 值复盘、错误分类、20 笔/月度系统性回顾 |
 
 ## 演示
 
 | 用例 | 说明 |
 |------|------|
 | [完整交易决策演示](demo/example-trade.md) | 从大盘评估到盈亏记录的全流程 |
+
+使用方式：先阅读 [demo/example-trade.md](demo/example-trade.md) 了解一笔完整决策如何串联三层过滤、仓位计算与事后 R 值记录，再加载对应子技能实践。
 
 ## 交易系统来源
 
@@ -40,9 +64,9 @@
 Agent 根据任务加载对应 skill：
 
 ```
-交易前评估  → trade-system.md + trade-decisions.md
-持仓管理    → trade-decisions.md
-交易后复盘  → trade-review.md
+交易前评估  → trade-system + trade-decisions
+持仓管理    → trade-decisions
+交易后复盘  → trade-review
 完整决策    → 全部加载 + demo/example-trade.md
 ```
 
