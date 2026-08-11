@@ -1,13 +1,19 @@
 ---
 name: trade-system
 description: "日线趋势交易核心系统：三层过滤（大盘→板块→个股）、两类入场、仓位风险公式、退出规则与连续亏损保护。"
+source:
+  type: derived
+  repo: skills-repo/trader
+  path: skills/trade-system/SKILL.md
+  url: https://github.com/Linux2010/one/blob/main/trade/trade.md
+  version: 1.0.0
+  updated: 2026-08-08
 agent_created: true
 metadata:
   version: 1.0.0
   category: 交易/投资
   difficulty: 专家
   architecture: superpower
-  source: https://github.com/Linux2010/one/blob/main/trade/trade.md
 ---
 
 # trade-system — 日线趋势交易核心系统

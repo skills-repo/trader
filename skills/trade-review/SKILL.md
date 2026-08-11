@@ -1,13 +1,19 @@
 ---
 name: trade-review
 description: "交易复盘技能：单笔 R 值计算、三层执行评估、错误分类与 20 笔 / 月度系统性复盘模板。"
+source:
+  type: derived
+  repo: skills-repo/trader
+  path: skills/trade-review/SKILL.md
+  url: https://github.com/Linux2010/one/blob/main/trade/trade.md#复盘指标
+  version: 1.0.0
+  updated: 2026-08-08
 agent_created: true
 metadata:
   version: 1.0.0
   category: 交易/投资
   difficulty: 专家
   architecture: superpower
-  source: https://github.com/Linux2010/one/blob/main/trade/trade.md#复盘指标
 ---
 
 # trade-review — 交易复盘技能

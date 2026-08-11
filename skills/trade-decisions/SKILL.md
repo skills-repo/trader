@@ -1,6 +1,13 @@
 ---
 name: trade-decisions
 description: "持仓管理与决策框架：管理趋势小账户持仓、维护候选标的池、评估期权机会（Bull Call Spread / Long Call）与相关性风险。"
+source:
+  type: derived
+  repo: skills-repo/trader
+  path: skills/trade-decisions/SKILL.md
+  url: https://github.com/Linux2010/one/blob/main/trade/logs/decisions.md
+  version: 1.0.0
+  updated: 2026-08-08
 agent_created: true
 metadata:
   version: 1.0.0
