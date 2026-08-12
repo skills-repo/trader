@@ -20,6 +20,7 @@ npx skills add skills-repo/trader
 npx skills add skills-repo/trader@trade-decisions
 npx skills add skills-repo/trader@trade-review
 npx skills add skills-repo/trader@trade-system
+npx skills add skills-repo/trader@crypto-trading
 ```
 
 ## 技能清单
@@ -29,6 +30,7 @@ npx skills add skills-repo/trader@trade-system
 | 交易系统核心 | [skills/trade-system/SKILL.md](skills/trade-system/SKILL.md) | 三层过滤、入场模式、仓位公式、退出规则 | 原创 |
 | 交易决策框架 | [skills/trade-decisions/SKILL.md](skills/trade-decisions/SKILL.md) | 持仓管理、候选标的池、期权边界 | 原创 |
 | 交易复盘 | [skills/trade-review/SKILL.md](skills/trade-review/SKILL.md) | R 值计算、错误分类、月度复盘模板 | 原创 |
+| 加密货币研究与决策 | [skills/crypto-trading/SKILL.md](skills/crypto-trading/SKILL.md) | 链上数据解读、市场结构、现货仓位纪律 | 派生 |
 
 ## 子技能表
 
@@ -37,6 +39,7 @@ npx skills add skills-repo/trader@trade-system
 | trade-system | `skills/trade-system` | 大盘/板块/个股三层过滤，仓位风险公式，入场退出决策 |
 | trade-decisions | `skills/trade-decisions` | 持仓快照、候选标的池、期权策略与相关性风险管理 |
 | trade-review | `skills/trade-review` | 单笔 R 值复盘、错误分类、20 笔/月度系统性回顾 |
+| crypto-trading | `skills/crypto-trading` | 链上指标、稳定币背景、现货仓位与加密特有风险（不杠杆/不合约/不签名） |
 
 ## 演示
 
@@ -48,7 +51,7 @@ npx skills add skills-repo/trader@trade-system
 
 ## 交易系统来源
 
-本仓库技能源于 [one](https://github.com/Linux2010/one) — 个人人生规划系统中的 trade 模块，包含完整的日线趋势交易方法论、投资日志和决策记录。
+本仓库技能源于 [one](https://github.com/Linux2010/one) — 个人人生规划系统中的 trade 模块，包含完整的日线趋势交易方法论、投资日志和决策记录。加密货币研究与决策（`crypto-trading`）为独立扩展域，派生自社区技能 kukapay/crypto-skills@trading-strategist，沿用同源风险控制哲学但针对 24/7、无熔断、高波动市场单独设定纪律（现货、不杠杆、不合约、不链上签名）。
 
 关键规则速览：
 
@@ -67,6 +70,7 @@ Agent 根据任务加载对应 skill：
 交易前评估  → trade-system + trade-decisions
 持仓管理    → trade-decisions
 交易后复盘  → trade-review
+加密研究    → crypto-trading + references/crypto-research-playbook.md
 完整决策    → 全部加载 + demo/example-trade.md
 ```
 

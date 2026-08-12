@@ -22,9 +22,12 @@ trader/
 │   │   └── SKILL.md
 │   └── trade-review/      # 交易复盘技能
 │       └── SKILL.md
+│   └── crypto-trading/    # 加密货币研究与决策框架
+│       └── SKILL.md
 └── references/            # 参考手册（L2，按需读取）
     ├── trade-decision-framework.md
-    └── trade-review-checklist.md
+    ├── trade-review-checklist.md
+    └── crypto-research-playbook.md
 ```
 
 ## 工作约定
@@ -32,7 +35,8 @@ trader/
 - 所有技能内容使用中文编写
 - 面向趋势交易者，假设其理解美股、20MA、R 值等基础概念
 - 输出可执行的判断与公式（仓位计算、R 值、期望值），不是空泛理论
-- 严格风险控制：单笔 0.5%–1%、组合 ≤ 3% 账户净值；只做多美股正股/ETF
+- 严格风险控制：美股单笔 0.5%–1%、组合 ≤ 3% 账户净值；只做多美股正股/ETF
+- 加密货币为独立扩展域：现货、不杠杆、不合约、不链上签名；单笔 1%–2%、组合 ≤ 3%–5%；链上研究优先于图表
 
 ## 技能添加流程
 
