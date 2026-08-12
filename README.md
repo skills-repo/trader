@@ -21,6 +21,7 @@ npx skills add skills-repo/trader@trade-decisions
 npx skills add skills-repo/trader@trade-review
 npx skills add skills-repo/trader@trade-system
 npx skills add skills-repo/trader@crypto-trading
+npx skills add skills-repo/trader@quant-research
 ```
 
 ## 技能清单
@@ -31,6 +32,7 @@ npx skills add skills-repo/trader@crypto-trading
 | 交易决策框架 | [skills/trade-decisions/SKILL.md](skills/trade-decisions/SKILL.md) | 持仓管理、候选标的池、期权边界 | 原创 |
 | 交易复盘 | [skills/trade-review/SKILL.md](skills/trade-review/SKILL.md) | R 值计算、错误分类、月度复盘模板 | 原创 |
 | 加密货币研究与决策 | [skills/crypto-trading/SKILL.md](skills/crypto-trading/SKILL.md) | 链上数据解读、市场结构、现货仓位纪律 | 派生 |
+| 量化研究与回测 | [skills/quant-research/SKILL.md](skills/quant-research/SKILL.md) | 回测验证、过拟合识别、因子边缘检验、参数高原 | 派生 |
 
 ## 子技能表
 
@@ -40,6 +42,7 @@ npx skills add skills-repo/trader@crypto-trading
 | trade-decisions | `skills/trade-decisions` | 持仓快照、候选标的池、期权策略与相关性风险管理 |
 | trade-review | `skills/trade-review` | 单笔 R 值复盘、错误分类、20 笔/月度系统性回顾 |
 | crypto-trading | `skills/crypto-trading` | 链上指标、稳定币背景、现货仓位与加密特有风险（不杠杆/不合约/不签名） |
+| quant-research | `skills/quant-research` | 回测设计、样本外检验、过拟合红线、与趋势系统结合（不杠杆/不自动交易） |
 
 ## 演示
 
@@ -71,6 +74,7 @@ Agent 根据任务加载对应 skill：
 持仓管理    → trade-decisions
 交易后复盘  → trade-review
 加密研究    → crypto-trading + references/crypto-research-playbook.md
+量化研究    → quant-research + references/quant-research-playbook.md
 完整决策    → 全部加载 + demo/example-trade.md
 ```
 
