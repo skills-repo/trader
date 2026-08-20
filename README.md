@@ -28,9 +28,9 @@ npx skills add skills-repo/trader@quant-research
 
 | 技能 | 文件 | 说明 | 来源 |
 |------|------|------|------|
-| 交易系统核心 | [skills/trade-system/SKILL.md](skills/trade-system/SKILL.md) | 三层过滤、入场模式、仓位公式、退出规则 | 原创 |
-| 交易决策框架 | [skills/trade-decisions/SKILL.md](skills/trade-decisions/SKILL.md) | 持仓管理、候选标的池、期权边界 | 原创 |
-| 交易复盘 | [skills/trade-review/SKILL.md](skills/trade-review/SKILL.md) | R 值计算、错误分类、月度复盘模板 | 原创 |
+| 交易系统核心 | [skills/trade-system/SKILL.md](skills/trade-system/SKILL.md) | 三层过滤、入场模式、仓位公式、退出规则 | 派生 |
+| 交易决策框架 | [skills/trade-decisions/SKILL.md](skills/trade-decisions/SKILL.md) | 持仓管理、候选标的池、期权边界 | 派生 |
+| 交易复盘 | [skills/trade-review/SKILL.md](skills/trade-review/SKILL.md) | R 值计算、错误分类、月度复盘模板 | 派生 |
 | 加密货币研究与决策 | [skills/crypto-trading/SKILL.md](skills/crypto-trading/SKILL.md) | 链上数据解读、市场结构、现货仓位纪律 | 派生 |
 | 量化研究与回测 | [skills/quant-research/SKILL.md](skills/quant-research/SKILL.md) | 回测验证、过拟合识别、因子边缘检验、参数高原 | 派生 |
 
