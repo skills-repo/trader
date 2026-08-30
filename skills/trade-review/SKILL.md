@@ -184,4 +184,10 @@ R = 实际盈亏 ÷ 初始计划风险
 
 ---
 
+## 相关参考（Playbook）
+
+- R 值计算口径、月度复盘模板与错误分类清单：详见 [`references/trade-review-checklist.md`](references/trade-review-checklist.md)
+
+---
+
 > 源文件：https://github.com/Linux2010/one/blob/main/trade/trade.md#复盘指标
