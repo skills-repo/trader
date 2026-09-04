@@ -180,7 +180,7 @@ NVDA、SMH、MU、AVGO、TSM 高度相关，属于同一笔"AI 算力"交易。
 
 ## 相关参考（Playbook）
 
-- 入场决策矩阵、仓位与风险公式、期权决策边界：详见 [`references/trade-decision-framework.md`](references/trade-decision-framework.md)
+- 入场决策矩阵、仓位与风险公式、期权决策边界：详见 [`references/trade-decision-framework.md`](../../references/trade-decision-framework.md)
 
 ---
 

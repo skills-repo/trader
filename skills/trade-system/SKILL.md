@@ -227,7 +227,7 @@ metadata:
 
 ## 相关参考（Playbook）
 
-- 入场/仓位风险公式、三层过滤判定矩阵、期权决策树与常见陷阱：详见 [`references/trade-decision-framework.md`](references/trade-decision-framework.md)
+- 入场/仓位风险公式、三层过滤判定矩阵、期权决策树与常见陷阱：详见 [`references/trade-decision-framework.md`](../../references/trade-decision-framework.md)
 
 ---
 
