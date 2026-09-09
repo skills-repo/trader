@@ -38,11 +38,11 @@ npx skills add skills-repo/trader@quant-research
 
 | 子技能 | 路径 | 适用 |
 |--------|------|------|
-| trade-system | `skills/trade-system` | 大盘/板块/个股三层过滤，仓位风险公式，入场退出决策 |
-| trade-decisions | `skills/trade-decisions` | 持仓快照、候选标的池、期权策略与相关性风险管理 |
-| trade-review | `skills/trade-review` | 单笔 R 值复盘、错误分类、20 笔/月度系统性回顾 |
-| crypto-trading | `skills/crypto-trading` | 链上指标、稳定币背景、现货仓位与加密特有风险（不杠杆/不合约/不签名） |
-| quant-research | `skills/quant-research` | 回测设计、样本外检验、过拟合红线、与趋势系统结合（不杠杆/不自动交易） |
+| trade-system | [skills/trade-system](skills/trade-system/SKILL.md) | 大盘/板块/个股三层过滤，仓位风险公式，入场退出决策 |
+| trade-decisions | [skills/trade-decisions](skills/trade-decisions/SKILL.md) | 持仓快照、候选标的池、期权策略与相关性风险管理 |
+| trade-review | [skills/trade-review](skills/trade-review/SKILL.md) | 单笔 R 值复盘、错误分类、20 笔/月度系统性回顾 |
+| crypto-trading | [skills/crypto-trading](skills/crypto-trading/SKILL.md) | 链上指标、稳定币背景、现货仓位与加密特有风险（不杠杆/不合约/不签名） |
+| quant-research | [skills/quant-research](skills/quant-research/SKILL.md) | 回测设计、样本外检验、过拟合红线、与趋势系统结合（不杠杆/不自动交易） |
 
 ## 演示
 

@@ -27,11 +27,11 @@ tags:
 
 | 任务 | 子技能 | 关键词（grep 线索） |
 |------|--------|---------------------|
-| 评估个股入场 / 大盘板块过滤 / 仓位风险公式 | `skills/trade-system` | 三层过滤, 20MA, 突破, 回踩, 仓位公式, 止损, 入场, 退出 |
-| 持仓管理 / 候选标的池 / 期权决策边界 | `skills/trade-decisions` | 持仓快照, 候选池, Bull Call Spread, Long Call, 相关性, 加仓, 组合风险 |
-| 单笔复盘 / R 值 / 月度统计 / 错误分类 | `skills/trade-review` | R值, 复盘, 期望值, 盈亏比, 最大回撤, 执行评估, 错误类型 |
-| 加密货币研究 / 链上数据解读 / 现货仓位决策 | `skills/crypto-trading` | 链上, 稳定币, NUPL, 净流量, 实现市值, 现货, 不杠杆, 不合约, 不签名 |
-| 量化研究 / 回测验证 / 过拟合检验 / 因子边缘 | `skills/quant-research` | 回测, 样本外, 过拟合, 参数高原, 未来函数, 夏普, 置信增强 |
+| 评估个股入场 / 大盘板块过滤 / 仓位风险公式 | [skills/trade-system](skills/trade-system/SKILL.md) | 三层过滤, 20MA, 突破, 回踩, 仓位公式, 止损, 入场, 退出 |
+| 持仓管理 / 候选标的池 / 期权决策边界 | [skills/trade-decisions](skills/trade-decisions/SKILL.md) | 持仓快照, 候选池, Bull Call Spread, Long Call, 相关性, 加仓, 组合风险 |
+| 单笔复盘 / R 值 / 月度统计 / 错误分类 | [skills/trade-review](skills/trade-review/SKILL.md) | R值, 复盘, 期望值, 盈亏比, 最大回撤, 执行评估, 错误类型 |
+| 加密货币研究 / 链上数据解读 / 现货仓位决策 | [skills/crypto-trading](skills/crypto-trading/SKILL.md) | 链上, 稳定币, NUPL, 净流量, 实现市值, 现货, 不杠杆, 不合约, 不签名 |
+| 量化研究 / 回测验证 / 过拟合检验 / 因子边缘 | [skills/quant-research](skills/quant-research/SKILL.md) | 回测, 样本外, 过拟合, 参数高原, 未来函数, 夏普, 置信增强 |
 
 > 完整决策演示见 [demo/example-trade.md](demo/example-trade.md)。
 
@@ -58,7 +58,7 @@ tags:
 
 ## 参考手册
 
-- `references/trade-decision-framework.md` — 入场决策矩阵、仓位公式与期权决策树
-- `references/trade-review-checklist.md` — R 值计算、月度复盘模板与错误分类清单
-- `references/crypto-research-playbook.md` — 链上指标决策矩阵、只读命令、山寨筛选清单与加密特有陷阱
-- `references/quant-research-playbook.md` — 回测设计矩阵、可复现 pandas/vectorbt 命令、过拟合红线与样本外检验清单
+- [references/trade-decision-framework.md](references/trade-decision-framework.md) — 入场决策矩阵、仓位公式与期权决策树
+- [references/trade-review-checklist.md](references/trade-review-checklist.md) — R 值计算、月度复盘模板与错误分类清单
+- [references/crypto-research-playbook.md](references/crypto-research-playbook.md) — 链上指标决策矩阵、只读命令、山寨筛选清单与加密特有陷阱
+- [references/quant-research-playbook.md](references/quant-research-playbook.md) — 回测设计矩阵、可复现 pandas/vectorbt 命令、过拟合红线与样本外检验清单

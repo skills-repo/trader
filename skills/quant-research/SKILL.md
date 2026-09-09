@@ -77,7 +77,7 @@ metadata:
 
 ## 回测工作流程（含命令思路）
 
-详见 `references/quant-research-playbook.md`。核心三件事：
+详见 [references/quant-research-playbook.md](../../references/quant-research-playbook.md)。核心三件事：
 
 1. **可复现**：固定随机种子、固定数据区间、脚本化全过程，结果可重跑。
 2. **防未来函数**：任何指标只用"当时可得"的数据；信号 T 日收盘、成交 T+1 开盘。

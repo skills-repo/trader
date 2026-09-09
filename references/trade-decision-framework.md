@@ -1,6 +1,6 @@
 # 交易决策框架 Playbook
 
-> 本手册是 `skills/trade-system` 与 `skills/trade-decisions` 的可执行补充。核心目标：把"要不要交易"的模糊判断，转成一张可逐步打勾的决策矩阵与一组可复算的公式。所有数字以演示账户净值 $23,832 为例，实际请替换为实时账户。
+> 本手册是 [skills/trade-system](../skills/trade-system/SKILL.md) 与 [skills/trade-decisions](../skills/trade-decisions/SKILL.md) 的可执行补充。核心目标：把"要不要交易"的模糊判断，转成一张可逐步打勾的决策矩阵与一组可复算的公式。所有数字以演示账户净值 $23,832 为例，实际请替换为实时账户。
 
 ---
 
