@@ -14,14 +14,14 @@
 
 ```bash
 # 整库安装
-npx skills add skills-repo/trader
+npx skills add skills-repo/trader -g -y
 
 # 按子技能安装
-npx skills add skills-repo/trader@trade-decisions
-npx skills add skills-repo/trader@trade-review
-npx skills add skills-repo/trader@trade-system
-npx skills add skills-repo/trader@crypto-trading
-npx skills add skills-repo/trader@quant-research
+npx skills add skills-repo/trader@trade-decisions -g -y
+npx skills add skills-repo/trader@trade-review -g -y
+npx skills add skills-repo/trader@trade-system -g -y
+npx skills add skills-repo/trader@crypto-trading -g -y
+npx skills add skills-repo/trader@quant-research -g -y
 ```
 
 ## 技能清单
