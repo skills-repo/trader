@@ -91,7 +91,9 @@ metadata:
 
 止损与美股同理：结构止损，跌破即假设失效；不取消、不亏损加仓。加密波动大，初始止损可放宽至入场价下方 5%–15%（按资产波动率），但**风险金额**仍由上述公式锁定。
 
-## 链上指标速查（详见 references/crypto-research-playbook.md）
+## 链上指标速查
+
+链上指标口径、数据商取舍与回测纪律的逐项展开：详见 [references/crypto-research-playbook.md](../../references/crypto-research-playbook.md)。
 
 | 指标 | 看涨信号 | 看跌信号 | 免费/受限 |
 |------|----------|----------|-----------|
