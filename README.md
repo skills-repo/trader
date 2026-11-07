@@ -16,12 +16,12 @@
 # 整库安装
 npx skills add skills-repo/trader -g -y
 
-# 按子技能安装
-npx skills add skills-repo/trader@trade-decisions -g -y
-npx skills add skills-repo/trader@trade-review -g -y
-npx skills add skills-repo/trader@trade-system -g -y
-npx skills add skills-repo/trader@crypto-trading -g -y
-npx skills add skills-repo/trader@quant-research -g -y
+# 按子技能安装（D115：根技能遮蔽下 @ 语法失效，改用子路径 URL）
+npx skills add https://github.com/skills-repo/trader/tree/main/skills/trade-decisions -g -y
+npx skills add https://github.com/skills-repo/trader/tree/main/skills/trade-review -g -y
+npx skills add https://github.com/skills-repo/trader/tree/main/skills/trade-system -g -y
+npx skills add https://github.com/skills-repo/trader/tree/main/skills/crypto-trading -g -y
+npx skills add https://github.com/skills-repo/trader/tree/main/skills/quant-research -g -y
 ```
 
 ## 技能清单
